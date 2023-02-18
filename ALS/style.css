@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: 0;
+    background-image: url("bg.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+
+    min-height: 600px;
+    min-width: 200px;
+}
+.container{
+    background-color: rgb(0, 120, 255);
+}
+h1,p{
+    color: aliceblue;
+    margin: 1em;
+    text-align: center;
+}
+h1{
+
+}
+.form_div{
+    
+}
+form{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+label {
+    margin-top: 0.5rem;
+}
+input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+a{
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+}
+button{
+    background: white;
+    border-radius: 1rem;
+    color: rgb(0, 120, 255);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    padding: 0.5rem 1.25rem;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.register_p{
+    margin-top: 0em;
+}
+#main_page_login{
+    background: rgb(45, 63, 122);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    padding: 0.9rem 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+#main_page_signup{
+    margin-top: 0.5em;
+    background:  rgb(0, 120, 255);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border: 0.2rem solid rgb(45, 63, 122);
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.5rem;
+}
+.main_page_buttons{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
